@@ -11,10 +11,13 @@
             "id": "fbc8886ab4351b79",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "新标签页"
+              "type": "bases",
+              "state": {
+                "file": "未命名.base",
+                "viewName": "表格"
+              },
+              "icon": "lucide-table",
+              "title": "未命名"
             }
           }
         ]
@@ -173,7 +176,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -189,6 +192,7 @@
   },
   "active": "fbc8886ab4351b79",
   "lastOpenFiles": [
+    "uv 的核心命令总图.md",
     "未命名 1.base",
     "测试.md",
     "未命名.base",
