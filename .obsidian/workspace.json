@@ -11,13 +11,14 @@
             "id": "fbc8886ab4351b79",
             "type": "leaf",
             "state": {
-              "type": "bases",
+              "type": "markdown",
               "state": {
-                "file": "未命名.base",
-                "viewName": "表格"
+                "file": "uv.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-table",
-              "title": "未命名"
+              "icon": "lucide-file",
+              "title": "uv"
             }
           }
         ]
@@ -192,10 +193,16 @@
   },
   "active": "fbc8886ab4351b79",
   "lastOpenFiles": [
+    "mos管.md",
+    "PLM操作手册.md",
+    "硬件nmos管.md",
+    "图推Prompts.md",
+    "Pasted image 20260625151346.png",
     "uv 的核心命令总图.md",
-    "未命名 1.base",
-    "测试.md",
+    "IOS_21434_0629.md",
     "未命名.base",
+    "测试.md",
+    "未命名 1.base",
     "欢迎.md"
   ]
 }
