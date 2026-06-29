@@ -1,0 +1,9 @@
+{
+	"id": "codeian",
+	"name": "Codeian",
+	"version": "0.2.18",
+	"minAppVersion": "1.4.5",
+	"description": "Use Codex from a sidebar in your vault.",
+	"author": "echooo",
+	"isDesktopOnly": true
+}

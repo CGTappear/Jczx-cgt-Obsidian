@@ -1,1 +1,6 @@
-{}
+{
+  "cssTheme": "Minimal",
+  "enabledCssSnippets": [
+    "fix-selection"
+  ]
+}

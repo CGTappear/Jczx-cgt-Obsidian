@@ -1,0 +1,91 @@
+/* =========================
+   Minimal E-ink 修复：
+   选区、代码块、表格、引用块可见性
+   ========================= */
+
+/* 1. 修复选中文字黑块问题 */
+::selection {
+  background-color: rgba(120, 160, 255, 0.35) !important;
+  color: inherit !important;
+}
+
+::-moz-selection {
+  background-color: rgba(120, 160, 255, 0.35) !important;
+  color: inherit !important;
+}
+
+.cm-selectionBackground,
+.cm-content ::selection {
+  background-color: rgba(120, 160, 255, 0.35) !important;
+  color: inherit !important;
+}
+
+/* 2. 修复代码块背景和边框 */
+.markdown-preview-view pre,
+.markdown-rendered pre,
+.markdown-source-view.mod-cm6 .cm-line.HyperMD-codeblock,
+.markdown-source-view.mod-cm6 .cm-line.HyperMD-codeblock-begin,
+.markdown-source-view.mod-cm6 .cm-line.HyperMD-codeblock-end {
+  background-color: #f3f3f3 !important;
+  border: 1px solid #b8b8b8 !important;
+  color: #111 !important;
+}
+
+/* 3. 代码块内文字 */
+.markdown-preview-view pre code,
+.markdown-rendered pre code,
+.cm-s-obsidian .HyperMD-codeblock {
+  color: #111 !important;
+  background-color: transparent !important;
+}
+
+/* 4. 行内代码 */
+.markdown-preview-view code,
+.markdown-rendered code,
+.cm-inline-code {
+  background-color: #eeeeee !important;
+  border: 1px solid #c8c8c8 !important;
+  color: #111 !important;
+  padding: 0.15em 0.35em !important;
+  border-radius: 4px !important;
+}
+
+/* 5. 修复表格边框 */
+.markdown-preview-view table,
+.markdown-rendered table {
+  border-collapse: collapse !important;
+  border: 1px solid #999 !important;
+}
+
+.markdown-preview-view th,
+.markdown-preview-view td,
+.markdown-rendered th,
+.markdown-rendered td {
+  border: 1px solid #999 !important;
+  padding: 6px 10px !important;
+}
+
+/* 6. 表头背景 */
+.markdown-preview-view th,
+.markdown-rendered th {
+  background-color: #eeeeee !important;
+  color: #111 !important;
+  font-weight: 700 !important;
+}
+
+
+
+/* 8. 引用块更清晰 */
+.markdown-preview-view blockquote,
+.markdown-rendered blockquote,
+.markdown-source-view.mod-cm6 .HyperMD-quote {
+  border-left: 4px solid #777 !important;
+  background-color: #f5f5f5 !important;
+  color: #333 !important;
+}
+
+/* 9. 分割线更清晰 */
+.markdown-preview-view hr,
+.markdown-rendered hr {
+  border-color: #999 !important;
+}

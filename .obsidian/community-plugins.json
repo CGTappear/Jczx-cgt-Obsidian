@@ -1,3 +1,10 @@
 [
-  "obsidian-git"
+  "obsidian-git",
+  "editing-toolbar",
+  "obsidian-minimal-settings",
+  "obsidian-pandoc",
+  "pdf-plus",
+  "image-converter",
+  "open-in-terminal",
+  "codeian"
 ]
