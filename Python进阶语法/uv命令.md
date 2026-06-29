@@ -602,7 +602,6 @@ curl -LsSf https://astral.sh/uv/install.sh | sh
 $env:UV_NO_MODIFY_PATH = "1"
 uv self update
 ```
-
 ```bash
 UV_NO_MODIFY_PATH=1 uv self update
 ```
