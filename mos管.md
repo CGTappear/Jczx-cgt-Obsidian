@@ -1,6 +1,6 @@
 ### MOS管的理解
 
-MOS 管的管脚有三个：**源极S（source）、栅极G（Gate）和漏极（Drain）**，但是实际工程应用中，经常无法区分PMOS管和NMOS管、各管脚的位置以及它们各自导通的条件。![](https://i-blog.csdnimg.cn/blog_migrate/22e26add55da2a09c803a6ed67ee4777.png#pic_center)![image.png](assets/0655d714-1812-4a53-a700-044ba99a76b3.png)
+MOS 管的管脚有三个：**源极S（source）、栅极G（Gate）和漏极（Drain）**，但是实际工程应用中，经常无法区分PMOS管和NMOS管、各管脚的位置以及它们各自导通的条件。![|632x368](https://i-blog.csdnimg.cn/blog_migrate/22e26add55da2a09c803a6ed67ee4777.png#pic_center)![image.png](assets/0655d714-1812-4a53-a700-044ba99a76b3.png)
 
 MOS管有两种：**一个是PMOS管，一个是NMOS管**；PMOS管就是positive管，是积极的管，而NMOS管是negative管，是消极的管。**积极的管就是顺应潮流，顺势而为；消极的管就是违背趋势，逆流而上。**  
 很显然，**电流从源极（输入端）到漏极（输出端），那就是顺势而为，因为源极就是源头嘛，因此这种管就是PMOS管；而电流要是从漏极（输入端）到源极（输出端），那就是逆流而上，是NMOS管。**

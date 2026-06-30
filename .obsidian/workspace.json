@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python进阶语法/uv命令.md",
+                "file": "PID与PMSM控制算法原理-算法与嵌入式代码.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "uv命令"
+              "title": "PID与PMSM控制算法原理-算法与嵌入式代码"
             }
           }
         ]
@@ -189,7 +189,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 212.5
+    "width": 317.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -209,13 +209,18 @@
   },
   "active": "fbc8886ab4351b79",
   "lastOpenFiles": [
+    "mos管.md",
+    "PID与PMSM控制算法原理-算法与嵌入式代码.md",
+    "PID与PMSM控制算法原理.md",
+    "code/pmsm_foc_pid.c",
+    "code/pmsm_foc_pid.h",
+    "code",
+    "Python进阶语法/uv命令.md",
+    "硬件nmos管.md",
     "assets/uv命令-1782719132864.webp",
     "assets/uv命令-1782718959319.webp",
     "assets/uv命令-1782718954940.webp",
-    "mos管.md",
     "图推Prompts.md",
-    "Python进阶语法/uv命令.md",
-    "硬件nmos管.md",
     "Python进阶语法/Python函数进阶语法.md",
     "uv命令.md",
     "PLM操作手册.md",
