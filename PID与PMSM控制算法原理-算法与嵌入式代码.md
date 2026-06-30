@@ -4,7 +4,7 @@
 
 永磁同步电机（PMSM, Permanent Magnet Synchronous Motor）的高性能控制通常采用磁场定向控制（FOC, Field Oriented Control）。FOC 的核心思想是通过坐标变换把三相交流电机等效为直流电机形式，将电流分解为励磁分量 `Id` 和转矩分量 `Iq`，再分别闭环控制。
 
-典型控制结构如下：
+典型控制结构：
 
 ```text
 速度给定 w_ref
